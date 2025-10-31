@@ -25,11 +25,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg
+  favicon: /images/Avatar/self2.jpeg
   # Site logo
-  logo: 
+  logo:  /images/Avatar/self2.jpeg
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: /images/Avatar/self.jpeg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -114,7 +114,7 @@ fontawesome: # Pro v6.2.1
   # Thin version
   thin: false
   # Light version
-  light: false
+  light: true
   # Duotone version
   duotone: false
   # Sharp Solid version
@@ -134,10 +134,10 @@ home_banner:
     light: /images/wallhaven-wqery6-light.webp # light mode
     dark: /images/wallhaven-wqery6-dark.webp # dark mode
   # Home banner title
-  title: Theme Redefine
+  title: GelerCAT's Blog
   # Home banner subtitle
   subtitle:
-    text: [] # subtitle text, array
+    text: ["Code", "Create", "Cat"] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -171,16 +171,16 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: false
+    enable: true
     # Social links style
     style: default # default, reverse, center
     # Social links
     links:
-      github:  # your GitHub URL
-      instagram: # your Instagram URL
-      zhihu:  # your ZhiHu URL
-      twitter:  # your twitter URL
-      email:  # your email
+      github: https://github.com/Gelercatty
+      # instagram: # your Instagram URL
+      # zhihu:  # your ZhiHu URL
+      # twitter:  # your twitter URL
+      # email:  # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -234,7 +234,7 @@ navbar:
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
-    enable: false
+    enable: true
     # Preload search data when the page loads
     preload: true
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -402,7 +402,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2025/11/1 1:12:00
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
