@@ -1,0 +1,10 @@
+- links_category: Me and My Boys
+  has_thumbnail: false
+  list:
+      - name: Planar_Fox
+        link: https://blog.aprilscent.net
+        description: lovely fox focus on llm
+        avatar:    /images/Avatar/planar.jpg
+        thumbnail: /images/Avatar/planar.jpg
+
+ 

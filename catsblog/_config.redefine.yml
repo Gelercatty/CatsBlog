@@ -211,6 +211,9 @@ navbar:
     Gallery:
       icon: fa-solid fa-image
       path: /gallery
+    Friends:
+      icon: fa-solid fa-link
+      path: /links/
     # Archives: 
     #   path: /archives 
     #   icon: fa-regular fa-archive # can be empty
