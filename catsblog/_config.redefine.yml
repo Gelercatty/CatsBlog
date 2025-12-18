@@ -210,7 +210,10 @@ navbar:
       icon: fa-regular fa-house # can be empty
     Gallery:
       icon: fa-solid fa-image
-      path: /gallery
+      path: /gallery/
+    PlayGround:
+      icon: fa-solid fa-cubes-stacked
+      path: /playground/
     Friends:
       icon: fa-solid fa-link
       path: /links/

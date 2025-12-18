@@ -6,9 +6,13 @@
   title: Light&Magic
   description: 学习了打光的魔法
 
-- image: https://images.geler.org/arts/catsniper.jpeg
-  title: "Cat Sniper"
-  description: "who am i"
+- image: "https://images.geler.org/arts/vellage.jpeg"
+  title: "Every day with u"
+  description: "明年还回来吗"
+
+- image: "https://images.geler.org/arts/sunset_bsu.jpeg"
+  title: "自习室窗外"
+  description: "sunset in bsu"
 
 - image: https://images.geler.org/arts/classmate.jpeg
   title: "classmate"
@@ -17,6 +21,11 @@
 - image: "https://images.geler.org/arts/dog engineer.jpeg"
   title: "Dog Engineer"
   description: "可靠的家伙"
+
+- image: https://images.geler.org/arts/catsniper.jpeg
+  title: "Cat Sniper"
+  description: "who am i"
+
 
 - image: "https://images.geler.org/arts/inside.png"
   title: "My Secret Area"
@@ -29,14 +38,6 @@
 - image: "https://images.geler.org/arts/tankandbreak.jpeg"
   title: "Tank & Break"
   description: "这个一次能晾好几件..."
-
-- image: "https://images.geler.org/arts/vellage.jpeg"
-  title: "Every day with u"
-  description: "明年还回来吗"
-
-- image: "https://images.geler.org/arts/sunset_bsu.jpeg"
-  title: "自习室窗外"
-  description: "sunset in bsu"
 
 - image: "https://images.geler.org/arts/raising.jpeg"
   title: "where is end"
