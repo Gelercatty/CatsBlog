@@ -11,14 +11,15 @@ mathjax: true
 各种教程中对于RL里面价值函数这一部分的推导经常默认看得懂全期望公式。
 
 $$
-\begin{aligned}
-V(s) &= \mathbb{E}\!\left[G_t \mid S_t = s\right] \\
-&= \mathbb{E}\!\left[R_t + \gamma R_{t+1} + \gamma^2 R_{t+2} + \cdots \mid S_t = s\right] \\
-&= \mathbb{E}\!\left[R_t + \gamma\left(R_{t+1} + \gamma R_{t+2} + \cdots\right) \mid S_t = s\right] \\
-&= \mathbb{E}\!\left[R_t + \gamma G_{t+1} \mid S_t = s\right] \\
-&= \mathbb{E}\!\left[R_t + \gamma V(S_{t+1}) \mid S_t = s\right].
-\end{aligned}
+\begin{array}{l}
+V(s)=\mathbb{E}[G_t\mid S_t=s] \\
+=\mathbb{E}[R_t+\gamma R_{t+1}+\gamma^2R_{t+2}+\cdots \mid S_t=s] \\
+=\mathbb{E}[R_t+\gamma(R_{t+1}+\gamma R_{t+2}+\cdots)\mid S_t=s] \\
+=\mathbb{E}[R_t+\gamma G_{t+1}\mid S_t=s] \\
+=\mathbb{E}[R_t+\gamma V(S_{t+1})\mid S_t=s]
+\end{array}
 $$
+
 
 为什么$G_{t+1}$能够直接等于本应取决于$S_{t+1}$的价值函数？这就涉及到全概率公式的概念。
 
@@ -70,6 +71,7 @@ $$V^\pi (s) = \mathbb{E}_\pi[G_t | S_t = s]$$
 
 回到一开始的疑问：$G_{t+1}$依赖于未知的$S_{t+1}$
 这时候，令分组变量是下一个状态$S_{t+1}$
+
 $$\mathbb{E}_\pi[G_{t+1} | S_t = s] = \mathbb{E}_\pi[\mathbb{E}_\pi[G_{t+1}|S_{t+1}]|S_t=s]$$
 
 这里面就把对于未来的不可控转化成了下一个状态价值的平均。
