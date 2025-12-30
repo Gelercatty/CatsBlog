@@ -176,7 +176,7 @@ home_banner:
     style: default # default, reverse, center
     # Social links
     links:
-      github: https://github.com/Gelercatty
+      github: "https://github.com/Gelercatty"
       # instagram: # your Instagram URL
       # zhihu:  # your ZhiHu URL
       # twitter:  # your twitter URL
