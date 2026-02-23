@@ -1,7 +1,10 @@
 ---
 title: RL Basics
 date: 2025-12-21 15:09:34
-tags: RL 强化学习 概率论
+tags:
+  - RL
+  - 强化学习
+  - 概率论
 mathjax: true
 ---
 
