@@ -117,7 +117,7 @@ det(A) = e_1 · (D\times e_2) \\
 | $u=\frac{T\cdot(D\times e2)}{\det(A)}$  | `u = dot(tvec,pvec)/det`       |
 | $v=\frac{D\cdot(T\times e1)}{\det(A)}$  | `v = dot(dir,qvec)/det`        |
 | $t=\frac{e2\cdot(T\times e1)}{\det(A)}$ | `t = dot(e2,qvec)/det`         |
-这样，我们只需要使用$D, e_1, e_2$就能得到uvt，判断射入的正反。大大提升了判断命中的效率。
+这样，我们只需要使用$D, e_1, e_2$就能得到uvt，判断射入的正反。大大提升了判断命中的计算效率。
 
 ```cpp
 bool rayTriangleIntersect(const Vector3f& v0, const Vector3f& v1, 
@@ -148,6 +148,15 @@ float& tnear, float& u, float& v)
   
 }
 ```
+### 反射与折射
+
+#### 反射
+$O = 1 - 2*(I · N)N$
+如果法线$N$是单位向量，那么$I·N$提供方向，$N$提供长度，则算出来的是入射光投影到法线$N$上的结果。通过镜面反射，直接得到反射光线。中间没有任何临时变量。
+#### 折射
+
+
+
 ## 相机射线
 
 ## 碎碎念
