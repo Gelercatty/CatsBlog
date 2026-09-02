@@ -134,3 +134,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Local macOS and image-upload cache files
+.DS_Store
+.image-hosting-cache/
